@@ -1,0 +1,13 @@
+{
+   "name": "default",
+   "type": "sqlite",
+   "host": "localhost",
+   "port": 5432,
+   "database": "./src/database/database.slqlite",
+   "entities": "./src/entities/*.ts",
+   "migrations": ["./src/database/migrations/*.ts"],
+   "cli": {
+      "migrationsDir": "./src/database/migrations/",
+      "entitiesDir": "./src/entities/"
+   }
+}
